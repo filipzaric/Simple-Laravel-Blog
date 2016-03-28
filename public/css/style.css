@@ -1,0 +1,49 @@
+body {
+	background: rgb(234, 234, 251);
+
+}
+body a:hover {
+	color: #BC8F8F;
+	background-color: transparent;
+	outline: 0;
+	color: #000000;
+}
+.Body-content {
+	text-align: justify;
+	padding-top: 100px;
+	width: 500px;
+	margin: 0 auto;
+}
+.Body-content a {
+	text-decoration: none;
+}
+
+.Header {
+	width:100%;
+	text-align: center;
+	position:fixed;
+	margin-top: -20px;
+}
+.Header a {
+	text-decoration: none;
+}
+.Header-content {
+	max-width:640px;
+	margin:0 auto;
+	padding-top:2em;
+	text-align:center;
+	background: rgba(234, 234, 251,.9);
+}
+.Header-title { 
+	margin: 0;
+}
+.Header-description {
+	color:#000;
+	margin-top:5px;
+}
+
+.Line {
+	height:0.5px;
+	margin:1em 0;
+	background:-webkit-linear-gradient(#fff, #ccc, #000);
+}
